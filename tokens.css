@@ -1,0 +1,61 @@
+/* Hallmark · pre-emit critique: P5 H4 E5 S4 R5 V4 */
+/* Hallmark · macrostructure: Marquee Hero · tone: playful · anchor hue: blue · contrast: pass(40-41) · nav: N5 · footer: Ft5 · slop: pass(42-45) · honest: pass(46) · chrome: pass(47) · tokens: pass(48) · responsive: pass(49) · mobile: pass(34,49,50-57) */
+
+:root {
+  /* color — OKLCH */
+  --color-paper:        oklch(99% 0.004 250);
+  --color-paper-2:      oklch(96% 0.012 250);
+  --color-paper-3:      oklch(92% 0.02 252);
+  --color-ink:          oklch(26% 0.04 256);
+  --color-ink-soft:     oklch(45% 0.03 256);
+  --color-line:         oklch(88% 0.02 252);
+
+  --color-accent:       oklch(58% 0.17 252);   /* bright dental blue  */
+  --color-accent-deep:  oklch(48% 0.16 254);
+  --color-accent-tint:  oklch(94% 0.05 252);
+  --color-gold:         oklch(80% 0.11 85);    /* metallic gold       */
+  --color-gold-deep:    oklch(70% 0.12 80);
+  --color-orange:       oklch(67% 0.19 42);    /* CTA orange          */
+  --color-orange-deep:  oklch(58% 0.18 40);
+
+  --color-focus:        oklch(62% 0.20 252);
+
+  /* font */
+  --font-display: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-body:    "Inter", system-ui, sans-serif;
+
+  /* space — 4pt scale */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 40px;
+  --space-2xl: 64px;
+  --space-3xl: 96px;
+
+  /* text */
+  --text-xs: 0.78rem;
+  --text-sm: 0.9rem;
+  --text-base: 1rem;
+  --text-lg: 1.2rem;
+  --text-xl: 1.55rem;
+  --text-2xl: 2.1rem;
+  --text-display: 3.4rem;
+  --text-display-s: 2.6rem;
+
+  /* radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  /* ease + duration */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 140ms;
+  --dur-mid: 260ms;
+
+  /* rule */
+  --rule-hair: 1px;
+  --maxw: 1140px;
+}
